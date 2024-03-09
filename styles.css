@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header {
+    max-width: 1140px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header p {
+    margin: 10px;
+}
+
+.header a {
+text-decoration: none;
+margin: 10px;
+}
+
+a:visited{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+.imageCenter{
+    display: flex;
+    justify-content: center;
+}
+
+.imageCenter img {
+    margin-top: 9%;
+}
+
+.rounded-input {
+        display: flex;
+        z-index: 3;
+        position: relative;
+        min-height: 44px;
+        background: #fff;
+        border: 1px solid #5f6368;
+        box-shadow: none;
+        border-radius: 24px;
+        margin: 0 auto;
+        max-width: 584px;
+        width: 100%;
+        margin-top: 1%;
+        padding: 1%;
+}
+
+.btn-google{
+  border-radius: 4px;
+  font-family: arial,sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+.h1Advanced {
+  color: #d93025;
+  font-size: 20px;
+  margin: 25px 35px;
+  text-decoration: none;
+  font-family: arial,sans-serif;
+  font-weight: 100;
+}
+.line{
+    color: #ebebeb;
+    border-bottom: 1px solid;
+}
+
+.h2-advanced{
+    font-family: arial,sans-serif;
+    color: #333;
+    font-weight: 500;
+    font-size: 16px;
+    min-width: 167px;
+    min-height: 42px;
+}
+
+.div-advanced{
+    margin: 40px 2% 0 45px;
+    max-width: 1140px;
+    min-width: 200px;
+    width: 96%;
+}
+
+.row-input{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    width: 167px;
+    height: 42px;
+}
+.right{
+    display: flex;
+    min-width: 167px;
+    min-height: 41px;
+    align-items: center;
+    width: 50%;
+}
+.form-input {
+    display: flex;
+    font-size: 13px;
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    width: 100%;
+    height: 29px;
+    justify-content: center;
+}
+
+.btn-div {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+.btn-google1 {
+    border: 1px solid #3079ed;
+    color: #fff;
+    box-shadow: none;
+    background-color: #4d90fe;
+    padding: 0 12px;
+    min-width: 120px;
+    height: 30px;
+}
+
+.rightier {
+    width: 33%;
+    font-size: 11px;
+    font-weight: 700;
+    color: #777;
+    padding-left: 5px;
+    text-decoration: none;
+    font-family: arial,sans-serif;
+    float: left;
+}
+
+@media only screen and (max-width: 1059px) {
+    .rightier {
+      display: none;
+    }
+  }
